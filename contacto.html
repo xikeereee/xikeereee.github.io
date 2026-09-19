@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto | Vanguard Studios - Rubí</title>
+  <meta name="description"
+    content="Reserva tu sesión de grabación en Vanguard Studios, Rubí. Dirección, teléfono y horario del estudio.">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="contenedor">
+      <a class="logo" href="index.html">VANGUARD STUDIOS</a>
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="galeria.html">Galería</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="contenedor">
+      <h1>Contacto</h1>
+      <p>Cuéntanos qué quieres grabar y te respondemos en menos de 24 horas.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="contenedor">
+
+      <form onsubmit="event.preventDefault(); alert('Formulario de demostración, sin envío real.');">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" type="text" required>
+
+        <label for="email">Email</label>
+        <input id="email" type="email" required>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" rows="5" required></textarea>
+
+        <button class="boton" type="submit" style="border:none; cursor:pointer; margin-top:20px;">Enviar</button>
+      </form>
+
+      <h2 style="margin-top:40px;">Datos del estudio</h2>
+      <p>Carrer de Sant Jordi, 14 · 08191 Rubí (Barcelona)</p>
+      <p>Teléfono: 93 000 00 00</p>
+      <p>Horario: martes a sábado, 10:00–14:00 y 16:00–21:00</p>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="contenedor">
+      <p>Vanguard Studios · Carrer de Sant Jordi 14, Rubí (Barcelona)</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
