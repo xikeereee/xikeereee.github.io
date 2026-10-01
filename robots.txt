@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xikeereee.github.io/sitemap.xml

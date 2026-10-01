@@ -5,44 +5,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Galería | Vanguard Studios - Rubí</title>
   <meta name="description" content="Fotos de las instalaciones y salas de Vanguard Studios, el estudio de grabación de Rubí.">
+  <link rel="canonical" href="https://xikeereee.github.io/galeria.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="Vanguard Studios">
+  <meta property="og:title" content="Galería | Vanguard Studios - Rubí">
+  <meta property="og:description" content="Fotos de las instalaciones y salas de Vanguard Studios, el estudio de grabación de Rubí.">
+  <meta property="og:image" content="https://xikeereee.github.io/STUFF/instalaciones-estudio-korner-1.jpg">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+  <a class="salto" href="#contenido">Saltar al contenido</a>
   <header>
     <div class="contenedor">
-      <a class="logo" href="index.html">VANGUARD STUDIOS</a>
-      <nav>
+      <a class="logo" href="index.html"><img src="img/logo.svg" width="28" height="26" alt="">VANGUARD STUDIOS</a>
+      <nav aria-label="Principal">
         <a href="index.html">Inicio</a>
         <a href="servicios.html">Servicios</a>
-        <a href="galeria.html">Galería</a>
+        <a href="galeria.html" aria-current="page">Galería</a>
         <a href="contacto.html">Contacto</a>
       </nav>
     </div>
   </header>
-  <section class="hero">
-    <div class="contenedor">
-      <h1>Galería</h1>
-      <p class="subtitulo">Así son nuestras salas por dentro.</p>
-    </div>
-  </section>
-
-  <section class="galeria-lista">
-    <div class="contenedor">
-      <div class="galeria-grid">
-        <img src="STUFF/instalaciones-estudio-korner-1.jpg" alt="Vista desde la cabina">
-        <img src="STUFF/instalaciones-estudio-korner-2.jpg" alt="Cabina de grabación">
-        <img src="STUFF/instalaciones-estudio-korner-3.jpg" alt="Equipaje y material">
-        <img src="STUFF/instalaciones-estudio-korner-4.jpg" alt="Estudio completo">
+  <main id="contenido">
+    <section class="hero">
+      <div class="contenedor">
+        <p class="eyebrow">Galería</p>
+        <h1>Así son nuestras salas por dentro</h1>
+        <p class="lead">Recepción, sala de voz y sala de control del estudio de grabación de Rubí.</p>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <section class="sin-arriba">
+      <div class="contenedor">
+        <div class="galeria-grid">
+        <figure class="ancha"><img src="STUFF/instalaciones-estudio-korner-1.jpg" width="1600" height="877" loading="lazy" alt="Recepción del estudio con paneles de luz LED, sofá y mostrador"><figcaption>Recepción</figcaption></figure>
+        <figure class=""><img src="STUFF/instalaciones-estudio-korner-4.jpg" width="287" height="510" loading="lazy" alt="Pasillo del estudio con líneas de iluminación LED"><figcaption>Pasillo</figcaption></figure>
+        <figure class=""><img src="STUFF/instalaciones-estudio-korner-2.jpg" width="500" height="333" loading="lazy" alt="Sala de grabación de voz con micrófono de condensador y filtro antipop"><figcaption>Sala de voz</figcaption></figure>
+        <figure class="ancha"><img src="STUFF/instalaciones-estudio-korner-3.jpg" width="679" height="452" loading="lazy" alt="Sala de control con monitores de estudio, mesa y sillas ergonómicas"><figcaption>Sala de control</figcaption></figure>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="contenedor">
+        <div class="cta">
+          <h2>Ven a conocer el estudio</h2>
+          <p class="lead">Cuéntanos qué quieres grabar y te respondemos en menos de 24 horas.</p>
+          <a class="boton" href="contacto.html">Reservar sesión</a>
+        </div>
+      </div>
+    </section>
+  </main>
   <footer>
-    <div class="contenedor">
-      <p>Vanguard Studios · Carrer de Sant Jordi 14, Rubí (Barcelona)</p>
+    <div class="contenedor pie">
+      <div>
+        <p class="pie-titulo">Vanguard Studios</p>
+        <p>Estudio de grabación y producción musical en Rubí.</p>
+      </div>
+      <address>
+        Carrer de Sant Jordi, 14<br>08191 Rubí (Barcelona)<br>
+        <a href="tel:+34930000000">93 000 00 00</a>
+      </address>
+      <p>Martes a sábado<br>10:00–14:00 y 16:00–21:00</p>
     </div>
+    <p class="copy">© 2026 Vanguard Studios · Rubí</p>
   </footer>
-
 </body>
 </html>
